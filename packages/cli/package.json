@@ -1,0 +1,14 @@
+{
+  "name": "cli",
+  "version": "7.32.0",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "sqlite3": "5.1.7"
+  }
+}

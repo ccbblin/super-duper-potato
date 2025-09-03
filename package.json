@@ -1,0 +1,21 @@
+{
+  "name": "@test-mono/base",
+  "version": "7.39.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "5.5.3",
+    "lerna": "8.2.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

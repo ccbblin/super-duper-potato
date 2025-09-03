@@ -1,0 +1,10 @@
+{
+  "useYarn": true,
+  "packages": ["packages/*"],
+  "command": {
+    "version": {
+      "yes": true,
+      "conventionalCommits": true
+    }
+  }
+}
