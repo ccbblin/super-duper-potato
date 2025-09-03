@@ -1,0 +1,13 @@
+{
+  "bootstrap-sha": "8d1244dbb292b3936343185ee737906bfd505b00",
+  "plugins": ["node-workspace"],
+  "packages": {
+    "packages/bla": {},
+    "packages/cli": {},
+    ".": {
+      "include-component-in-tag": false
+    }
+  },
+  "group-pull-request-title-pattern": "release: ${version}",
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
