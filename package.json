@@ -1,6 +1,6 @@
 {
   "name": "@test-mono/base",
-  "version": "7.39.0",
+  "version": "7.40.0",
   "license": "MIT",
   "scripts": {
     "build": "tsc -b"
